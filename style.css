@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  list-style: none;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+.left-side{
+   
+   flex-basis: 20%;
+  
+    
+   align-self: flex-start;
+   position: sticky;
+   top: 0;
+   overflow-y: scroll;
+ 
+}
+.right-side{
+    width: 75%;
+   
+}
+.logo{
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 15px;
+     padding-bottom: 40px;
+    
+     font-weight: bold;
+}
+.product{
+   margin-bottom: 65%;
+   font-size: 15px;
+   padding: 5px;
+   line-height: 20px;
+   color: gray;
+   width: 100%;
+}
+.product li{
+    width: 100%;
+    padding-left: 5px;
+}
+.contact{
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+    width: 100%;
+   
+
+   
+}
+.contact p{
+  
+   padding-left: 10px;
+    width: 100%;
+
+}
+li{
+    width: 100px;
+}
+li:hover{
+    color: black;
+    background-color: gray;
+    
+   
+}
+p:hover{
+    color: black;
+    background-color: gray;
+    width: 100%;
+  
+}
+details{
+    padding-left: 5px;
+}
+details:hover{
+    background-color: gainsboro;
+}
+/* -----------------------right side start ------------------------ */
+.right-side{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    background-image: url(scr/bg.png);
+    background-size: cover;
+    background-position: center;
+   margin-top: 30px;
+}
+h1{
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-size: 45px;
+    color: white;
+    padding: 15px;
+}
+h3{
+    margin-left: 20px;
+    color: white;
+    text-transform: uppercase;
+    font: 30px;
+    padding: 15px;
+}
+.btn{
+    margin-bottom: 200px;
+    margin-top: 30px;
+    margin-left: 28px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 70px;
+}
+.btn:hover{
+    background-color: gainsboro;
+    color: black;
+    width: 70px;
+}
+.card-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+.card img{
+    width: 120px;
+
+}
+.card{
+   position: relative;
+}
+button{
+    top: 0px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    background-color: black;
+    color: white;
+}
+#btn2{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    right: 20px;
+    background-color: gray;
+    color: white;
+    padding: 4px;
+    font-size: 13px;
+    text-align: center;
+   
+}
+#btn2:hover{
+    display: block;
+    background-color: black;
+    font-size: 13px;
+}
+span{
+    font-size: 10px;
+}
+#text{
+    font-size: 13px;
+    color: gray;
+    margin-top: 20px;
+}
+.subs{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.head{
+    padding-left: 9px;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+    margin-top: 12px;
+}
+h5{
+    padding-left: 9px;
+    font-weight: 50;
+}
+.input{
+  
+    padding-left: 9px;
+    padding-top: 10px;
+}
+input{
+    width:90%;
+    padding: 7px;
+    
+}
+.text2{
+  padding-top: 5px;
+  padding-bottom: 10px;
+    width: 100px;
+    background-color: #ef003f;
+ margin-top: 10PX;
+ margin-bottom: 20px;
+text-align: center;
+font-size: 10px;
+letter-spacing: 1px;
+}
+.text2:hover{
+    width: 100px;
+    background-color: gray;
+    color: black;
+}
+placeholder{
+    font-size: 10px;
+}
+.footer{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+    justify-content: space-between;
+    width: 100%;
+}
+form{
+    width: 30%;
+    text-align: center;
+    padding: 5px;
+}
+form input{
+    height: 8px;
+    margin: 5px;
+}
+input::placeholder{
+    font-size: 9px;
+}
+.header2{
+    margin-bottom: 20px;
+}
+.about{
+    text-align: center;
+   
+   
+}
+.about>a{
+    color: black;
+    font-size: 10px;
+    padding: 9px;
+    text-decoration: underline;
+}
+.store{
+    text-align: center;
+}
+.store>li{
+    padding: 7px;
+   
+}
+.store>li>i{
+    margin-right: 4px;
+    font-size: 10px;
+}
+.footer2{
+    height: 80px;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+   margin-top: 40px;
+   width: 100%;
+   color: white;
+}
+.footer2>div{
+    padding-top: 20px;
+}
