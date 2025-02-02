@@ -22,7 +22,7 @@
    flex-basis: 20%;
   
 
-    height: 100vh;
+    
    align-self: flex-start;
    position: sticky;
    top: 0;
@@ -151,13 +151,10 @@ h3{
     margin-top: 20px;
     width: 100%;
 }
-.card img{
-    width: 130px;
 
-}
 .card{
    position: relative;
-   width: 130px;
+   
 }
 button{
     top: 0px;
