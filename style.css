@@ -9,6 +9,7 @@
     padding: 0;
     text-decoration: none;
   list-style: none;
+  box-sizing: border-box;
 }
 .container{
     display: flex;
@@ -158,6 +159,7 @@ h3{
 
 .card{
    position: relative;
+   margin-top: 20px;
    
 }
 button{
